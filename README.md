@@ -56,7 +56,7 @@ Before running the script, ensure you have Python installed on your machine. The
 1. ``` git clone https://github.com/Solana0x/nodepay.git ```
 2. ``` cd nodepay ```
 3. ``` pip install -r requirements.txt ```
-4. Replace `NP TOken`, `User ID` and `Proxy server file location` list in correct formate in `node.py` File Line ```12 , 49 and 40```.
+4. Replace `NP TOken`, `User ID` and `Proxy server file location` list in correct formate in `node.py` File Line ```12 , 49 and 28```.
 5. By default 50 proxies will be taken randomly if you wana change then change here `active_proxies = [proxy for proxy in all_proxies[:50] if is_valid_proxy(proxy)]` line 143. Here 50 means 50 proxy will be used at once.
 6. Dont Forget to add multiple proxies in the proxy.txt file you can add 1000+ proxy !! Formate # `HTTP://username:pass@ip:port`.
 7. You can get Multiple Proxy Ip address from Proxies.fo Website !! [use multiple IP ! `1 IP == ~1400 $NODEPAY per Day `.
