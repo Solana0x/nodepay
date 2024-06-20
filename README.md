@@ -28,17 +28,11 @@ This Python Bot script manages WebSocket connections through specified HTTP prox
 
 #Get Proxies IP address HTTP
 
-1. Create a Account in [https://app.proxies.fo/ref/662f6ec9716d5c33a8b89d14](https://app.proxies.fo/ref/662f6ec9716d5c33a8b89d14) or [https://www.webshare.io/?referral_code=gppl5h10bwn5](https://www.webshare.io/?referral_code=gppl5h10bwn5)
+1. Create a Account in  [https://www.webshare.io/?referral_code=gppl5h10bwn5](https://www.webshare.io/?referral_code=gppl5h10bwn5)
 2. For webshare plan are 1000 Proxy for 1 Month !! hence total earning is => 43,200,000 $NODEPAY Points
 3. ![image](https://github.com/Solana0x/nodepay/assets/142747768/82eb59b5-9f74-4d14-96b0-c35bb1e8925e)
-4. Go To https://app.proxies.fo/plans and buy the below plan
-5. 3. ![image](https://github.com/Solana0x/getgrass/assets/142747768/3512c651-0f7a-416a-b783-34d2e28bbcee)
-6. **Best** - You can use Crypto and Binance to Pay here !!!
-7. Now go to DashBoard and `click Go to Generator` button
-8. Now change the Proxy formate to ` USER:PASS@HOST:PORT ` and use ` HTTP` in proxy count write 200 or any number.
-9. Now Click on Save to generate.
-10. ![image](https://github.com/Solana0x/nodepay/assets/142747768/679797fd-bc9f-4671-bc58-5d283a05adc7)
-11. You Got 200 Ips now => Earning == ~220k Tokens per day and distribute Ips across multiple accounts / User ID !!
+4. You Got 1000 Ips now => Earning == ~1,440,000 Tokens per day and distribute Ips across multiple accounts / User ID !! You get 250GB bandwidth so create 20-30 Nodepay accounts to get 25-30M nodepay points per day
+5. USe only webshare to Buy proxy because as of now only webshare website opened port for nodepay ! other proxy sellers i dont know !
 
 ## Requirements
 
@@ -68,3 +62,70 @@ Before running the script, ensure you have Python installed on your machine. The
 ![image](https://github.com/Solana0x/nodepay/assets/142747768/65143054-80b5-4785-b5cf-4e5333b02b70)
 
 ## FOR ANY KIND OF HELP CONTACT : ` 0xphatom ` on Discord  https://discord.com/users/979641024215416842
+
+```markdown
+# NodePay 多账户 100% 在线免费 Python 机器人 [v1]
+
+此 Python 机器人脚本通过指定的 HTTP 代理管理 WebSocket 连接，支持无限代理和多个 Nodepay 账户，处理身份验证并保持与服务器的持久连接。脚本还包括定期发送 ping 消息以保持连接永久在线的功能。如果你可以全天候运行电脑，就不需要 VPS 或代理服务器。
+
+## 功能
+
+- 使用 HTTP 代理连接到 WebSocket 服务器。
+- 同时处理多个 Nodepay 用户 ID！多个代理 (1 代理 ~60 $NODEPAY)。
+- 每个代理每天约 1400 $NODEPAY，无限代理无限赚钱！
+- 处理各种错误，如死代理/SSL: WRONG_VERSION_NUMBER/发送 1011（内部错误）保持连接 ping 超时；未收到关闭帧/500 内部服务器错误/发送 1011（内部错误）保持连接。
+- 自动从文件中删除死代理！
+
+#获取 NP_TOKEN
+
+1. 打开链接并登录 [https://app.nodepay.ai/dashboard](https://app.nodepay.ai/dashboard)
+2. 在页面上按 F12 打开控制台并输入代码（Ctrl + Shift + i）检查
+3. 在控制台中输入 `localStorage.getItem('np_token');`
+4. "打印的文本是 NP_TOKEN"
+5. ![image](https://github.com/Solana0x/nodepay/assets/142747768/bf907faa-0e56-4935-a5dc-da95f612fa07)
+
+#获取用户 ID
+
+1. 在页面上按 F12 打开控制台并输入代码（Ctrl + Shift + i）检查
+2. 转到检查中的网络标签
+3. 搜索设备然后检查响应
+4. 你会在那里得到用户 ID
+5. ![image](https://github.com/Solana0x/nodepay/assets/142747768/d9b07511-0554-4330-8d7c-81395b92c25b)
+
+#获取代理 IP 地址 HTTP
+
+1. 创建一个账户在 [https://www.webshare.io/?referral_code=gppl5h10bwn5](https://www.webshare.io/?referral_code=gppl5h10bwn5)
+2. 对于 webshare 计划，每月 1000 个代理！！因此总收入为 => 43,200,000 $NODEPAY 点数
+3. ![image](https://github.com/Solana0x/nodepay/assets/142747768/82eb59b5-9f74-4d14-96b0-c35bb1e8925e)
+4. 你现在有了 1000 个 IP => 收入 == 每天约 1,440,000 代币，并在多个账户/用户 ID 中分配 IP！你有 250GB 带宽，因此可以创建 20-30 个 Nodepay 账户，每天获得 25-30M nodepay 点数
+5. 只使用 webshare 购买代理，因为目前只有 webshare 网站为 nodepay 打开端口！其他代理卖家我不知道！
+
+## 要求
+
+- 邀请链接 Nodepay 账户 ( [https://app.nodepay.ai/register?ref=PGiwMlh6dQJVmxE](https://app.nodepay.ai/register?ref=PGiwMlh6dQJVmxE) )
+- Python (通过 https://www.python.org/downloads/ [windows/mac] 安装 Python) 或 Ubuntu 服务器 [`sudo apt install python3`]
+- VPS 服务器！你可以通过 AWS 免费套餐或 Google 免费套餐或 Gitpod 或任何在线获得，只需每月约 2-5 美元
+- 代理服务器 - 你可以购买数据中心代理来赚取 $NODEPAY 一些免费便宜的代理（最佳代理提供商是）
+- Proxies.fo - [https://app.proxies.fo/ref/662f6ec9716d5c33a8b89d14](https://app.proxies.fo/ref/662f6ec9716d5c33a8b89d14) [购买 1GB 计划就够了，足够 1-6 个月，你可以获得无限账户或代理]
+- 从 Nodepay 仪表板获取 NP_token 和用户 ID
+
+## 运行代码的步骤 -
+
+在运行脚本之前，确保你的计算机上已安装 Python。然后，使用以下命令安装必要的 Python 包：
+
+1. ``` git clone https://github.com/Solana0x/nodepay.git ```
+2. ``` cd nodepay ```
+3. ``` pip install -r requirements.txt ```
+4. 在 `node.py` 文件的第 ```12, 49 和 28``` 行中替换 `NP Token`、`User ID` 和 `Proxy server file location` 列表的正确格式。
+5. 默认情况下，将随机选择 50 个代理，如果你想更改，可以在第 143 行更改此处 `active_proxies = [proxy for proxy in all_proxies[:50] if is_valid_proxy(proxy)]`。这里的 50 表示将同时使用 50 个代理。
+6. 不要忘记在 proxy.txt 文件中添加多个代理，你可以添加 1000+ 个代理！格式 # `HTTP://username:pass@ip:port`。
+7. 你可以从 Proxies.fo 网站获取多个代理 IP 地址！！[使用多个 IP！`1 IP == 每天约 1400 $NODEPAY`。
+8. 运行脚本 `python3 node.py` - 代理一个
+9. 要运行多个用户 ID，只需复制粘贴 `node.py` 文件代码并创建新 Python 文件并重复该过程！！
+
+**注意** - 1 个 IP == 每天 1000-1400 $Nodepay。
+
+![image](https://github.com/Solana0x/nodepay/assets/142747768/65143054-80b5-4785-b5cf-4e5333b02b70)
+
+## 任何帮助请联系：` 0xphatom ` 在 Discord 上 https://discord.com/users/979641024215416842
+```
