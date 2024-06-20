@@ -39,8 +39,7 @@ This Python Bot script manages WebSocket connections through specified HTTP prox
 - Invitation link Nodepay Accounts ( [https://app.nodepay.ai/register?ref=PGiwMlh6dQJVmxE](https://app.nodepay.ai/register?ref=PGiwMlh6dQJVmxE) )
 - Python (install Python By - https://www.python.org/downloads/ [windows/mac]) or Ubuntu Server [`sudo apt install python3`]
 - VPS Server ! You can get Via AWS free Tier or Google Free tier or Gitpod or any online for just ~ 2-5$ per month
-- Proxy Server - you can buy DataCenter Proxies to Earn $NODEPAY Some Free Cheap proxies (Best proxy providers are)
-- Proxies.fo -  [https://app.proxies.fo/ref/662f6ec9716d5c33a8b89d14](https://app.proxies.fo/ref/662f6ec9716d5c33a8b89d14) [Buy Only 1GB Plan Enough for 1-6 months and you get Unlimited Accounts or proxies]
+- Proxy Server - you can buy DataCenter Proxies to Earn $NODEPAY Some Free Cheap proxies (Best proxy providers is webshare)
 - Get NP_token andcUser ID from Nodepay Dashboard
 
 ## SETPS TO RUN THE CODE -
@@ -59,7 +58,7 @@ Before running the script, ensure you have Python installed on your machine. The
 
 **Note** - 1 ip == 1000-1400 $Nodepay Per Day.
 
-![image](https://github.com/Solana0x/nodepay/assets/142747768/65143054-80b5-4785-b5cf-4e5333b02b70)
+![image](https://github.com/Solana0x/nodepay/assets/142747768/cbfd5d20-6d30-494c-9af1-34c2415d27d1)
 
 ## FOR ANY KIND OF HELP CONTACT : ` 0xphatom ` on Discord  https://discord.com/users/979641024215416842
 
@@ -108,7 +107,6 @@ Before running the script, ensure you have Python installed on your machine. The
 - Python (通过 https://www.python.org/downloads/ [windows/mac] 安装 Python) 或 Ubuntu 服务器 [`sudo apt install python3`]
 - VPS 服务器！你可以通过 AWS 免费套餐或 Google 免费套餐或 Gitpod 或任何在线获得，只需每月约 2-5 美元
 - 代理服务器 - 你可以购买数据中心代理来赚取 $NODEPAY 一些免费便宜的代理（最佳代理提供商是）
-- Proxies.fo - [https://app.proxies.fo/ref/662f6ec9716d5c33a8b89d14](https://app.proxies.fo/ref/662f6ec9716d5c33a8b89d14) [购买 1GB 计划就够了，足够 1-6 个月，你可以获得无限账户或代理]
 - 从 Nodepay 仪表板获取 NP_token 和用户 ID
 
 ## 运行代码的步骤 -
@@ -127,7 +125,7 @@ Before running the script, ensure you have Python installed on your machine. The
 
 **注意** - 1 个 IP == 每天 1000-1400 $Nodepay。
 
-![image](https://github.com/Solana0x/nodepay/assets/142747768/65143054-80b5-4785-b5cf-4e5333b02b70)
+![image](https://github.com/Solana0x/nodepay/assets/142747768/52323bc5-a151-44de-8038-f79b970736b5)
 
 ## 任何帮助请联系：` 0xphatom ` 在 Discord 上 https://discord.com/users/979641024215416842
 
