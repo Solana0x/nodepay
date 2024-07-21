@@ -1,4 +1,4 @@
-# NodePay Multi Account 100% Uptime FREE Python Bot [v1] Bot
+# NodePay Multi Account 100% Uptime FREE Python Bot [v2] Bot
 
 This Python Bot script manages WebSocket connections through specified HTTP proxies, Unlimited Proxies and multiple Nodepay Accounts handling authentication and maintaining persistent connections with a server. The script also includes functionality to periodically send ping messages to keep the connection alive forever. If you can run your pc 24/7 then you dont need a Vps or proxy server lol.
 
@@ -18,7 +18,7 @@ This Python Bot script manages WebSocket connections through specified HTTP prox
 4. "PRINTED TEXT IS THE Np _TOKEN"
 5. ![image](https://github.com/Solana0x/nodepay/assets/142747768/bf907faa-0e56-4935-a5dc-da95f612fa07)
 
-#Get USer_Id
+#Get USer_Id (NOT NEEDED IN NEW CODE) 
 
 1. Press F12 on the page to open the console and enter the code (Ctrl + Shift + i) inspect
 2. Go To Networks Tab in the Inspect
@@ -49,8 +49,8 @@ Before running the script, ensure you have Python installed on your machine. The
 1. ``` git clone https://github.com/Solana0x/nodepay.git ```
 2. ``` cd nodepay ```
 3. ``` pip install -r requirements.txt ```
-4. Replace `NP TOken`, `User ID` and `Proxy server file location` list in correct formate in `node.py` File Line ```12 , 49 and 28```.
-5. By default 50 proxies will be taken randomly if you wana change then change here `active_proxies = [proxy for proxy in all_proxies[:50] if is_valid_proxy(proxy)]` line 143. Here 50 means 50 proxy will be used at once.
+4. Replace `NP TOken` list in correct formate in `node.py` File Line ```9```.
+5. By default 100 proxies will be taken randomly if you wana change then change here `active_proxies = [proxy for proxy in all_proxies[:100] if is_valid_proxy(proxy)]` line 169. Here 100 means 100 proxy will be used at once.
 6. Dont Forget to add multiple proxies in the proxy.txt file you can add 1000+ proxy !! Formate # `HTTP://username:pass@ip:port`.
 7. You can get Multiple Proxy Ip address from Proxies.fo Website !! [use multiple IP ! `1 IP == ~1400 $NODEPAY per Day `.
 8. To Run Script `python3 node.py` - Proxy one
@@ -85,7 +85,7 @@ Before running the script, ensure you have Python installed on your machine. The
 4. "打印的文本是 NP_TOKEN"
 5. ![image](https://github.com/Solana0x/nodepay/assets/142747768/bf907faa-0e56-4935-a5dc-da95f612fa07)
 
-#获取用户 ID
+#获取用户 ID （新代码中不需要）
 
 1. 在页面上按 F12 打开控制台并输入代码（Ctrl + Shift + i）检查
 2. 转到检查中的网络标签
@@ -116,10 +116,10 @@ Before running the script, ensure you have Python installed on your machine. The
 1. ``` git clone https://github.com/Solana0x/nodepay.git ```
 2. ``` cd nodepay ```
 3. ``` pip install -r requirements.txt ```
-4. 在 `node.py` 文件的第 ```12, 49 和 28``` 行中替换 `NP Token`、`User ID` 和 `Proxy server file location` 列表的正确格式。
-5. 默认情况下，将随机选择 50 个代理，如果你想更改，可以在第 143 行更改此处 `active_proxies = [proxy for proxy in all_proxies[:50] if is_valid_proxy(proxy)]`。这里的 50 表示将同时使用 50 个代理。
+4. 在“node.py”文件行“``9```中以正确的格式替换“NP TOken”列表。
+5. 默认情况下，如果您想更改，将随机获取 100 个代理，然后在此处更改 `active_proxies = [proxy for proxy in all_proxies[:100] if is_valid_proxy(proxy)]` 第 169 行。这里 100 表示将同时使用 100 个代理。
 6. 不要忘记在 proxy.txt 文件中添加多个代理，你可以添加 1000+ 个代理！格式 # `HTTP://username:pass@ip:port`。
-7. 你可以从 Proxies.fo 网站获取多个代理 IP 地址！！[使用多个 IP！`1 IP == 每天约 1400 $NODEPAY`。
+7. 你可以从 Proxies.fo 网站获取多个代理 IP 地址！！[使用多个 IP！`1 IP == 每天约 1400 $NODEPAY`。WEBSHARE
 8. 运行脚本 `python3 node.py` - 代理一个
 9. 要运行多个用户 ID，只需复制粘贴 `node.py` 文件代码并创建新 Python 文件并重复该过程！！
 
